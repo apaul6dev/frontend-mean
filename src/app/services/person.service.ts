@@ -2,7 +2,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
-import { environment } from '../../enviroments/environments';
+import { environment } from '../../environments/environments';
 
 export interface Person {
     _id?: string;
